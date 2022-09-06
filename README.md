@@ -1,4 +1,4 @@
-# Java_CRUD_Project_WordMaster
+# WordMaster
 
 ## 설치한 IDE: Intellij
 <img src="https://github.com/ParkGyueun/Java_CRUD_Project_WordMaster/blob/master/screenshot/IntelliJ.png"/>
