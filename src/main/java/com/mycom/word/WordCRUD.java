@@ -1,11 +1,13 @@
 package com.mycom.word;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class WordCRUD  implements ICRUD {
     ArrayList<Word> list;
     Scanner s;
+    final String fileName = "Dictionary.txt";
     WordCRUD(Scanner s) {
         list = new ArrayList<>();
         this.s = s;
@@ -94,5 +96,39 @@ public class WordCRUD  implements ICRUD {
             System.out.print("딘어기 삭제되었습니다.\n");
         }
         else System.out.print("단어 삭제가 취소되었습니다.\n");
+    }
+    public void loadFile() {
+        try{
+            BufferedReader br = new BufferedReader(new FileReader(fileName));
+            String line;
+            int count = 0;
+
+            while(true){
+                line = br.readLine();
+                if(line == null) break;
+                String data[] = line.split("\\|");
+                int level = Integer.parseInt(data[0]);
+                String word = data[1];
+                String meaning = data[2];
+                list.add(new Word(0, level, word, meaning));
+                count++;
+            }
+            br.close();
+            System.out.println("=>" + count + "개 로딩 완료!!!");
+        } catch (IOException e) {
+             e.printStackTrace();
+        }
+    }
+    public void saveFile() {
+        try{
+            PrintWriter pr = new PrintWriter(new FileWriter(fileName));
+            for(Word one : list) {
+                pr.write(one.toFileString() + "\n");
+            }
+            pr.close();
+            System.out.println("=> 데이터 저장 완료!!!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
