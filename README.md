@@ -31,5 +31,9 @@
 ### 8. 파일 저장
 <img src = "https://github.com/ParkGyueun/Java_CRUD_Project_WordMaster/blob/master/screenshot/Dictionary.png">
 
+### 9. 파일 불러오기
+<img src = "https://github.com/ParkGyueun/Java_CRUD_Project_WordMaster/blob/master/screenshot/loadFile1.png">
+<img src = "https://github.com/ParkGyueun/Java_CRUD_Project_WordMaster/blob/master/screenshot/loadFile2.png">
+
 ### 현재까지 프로젝트를 구현하면서 소감, 어려움, 또는 건의사항
 프로젝트를 구현하면서 클래스를 나누고 인터페이스를 만들면서 자바 언어에 대해서 더욱더 배울 수 있었습니다. 
