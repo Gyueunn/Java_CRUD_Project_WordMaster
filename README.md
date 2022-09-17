@@ -37,6 +37,9 @@
 
 ### 8. 파일 저장
 #### Dictionary.txt 파일에 모든 단어를 저장합니다.
+<img src = "https://github.com/ParkGyueun/Java_CRUD_Project_WordMaster/blob/master/screenshot/saveFile.png">
+
+### 저장된 파일의 내용
 <img src = "https://github.com/ParkGyueun/Java_CRUD_Project_WordMaster/blob/master/screenshot/Dictionary.png">
 
 ### 9. 파일 불러오기
