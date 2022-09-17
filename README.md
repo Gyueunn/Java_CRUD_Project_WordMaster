@@ -28,6 +28,9 @@
 #### 수정할 단어를 검색하고 단어의 번호를 입력하면 수정하고자 하는 뜻을 입력하면 변경되는 것을 확인할 수 있습니다.
 <img src = "https://github.com/ParkGyueun/Java_CRUD_Project_WordMaster/blob/master/screenshot/updateItem.png">
 
+### 단어 수정 후 결과
+<img src = "https://github.com/ParkGyueun/Java_CRUD_Project_WordMaster/blob/master/screenshot/updateItem_result.png">
+
 ### 7. 단어 삭제
 #### 삭제할 단어를 검색하고 그 단어의 번호를 선택하면 삭제할 것인지 다시 묻고 단어를 삭제합니다.
 <img src = "https://github.com/ParkGyueun/Java_CRUD_Project_WordMaster/blob/master/screenshot/deleteItem.png">
